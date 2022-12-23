@@ -1,10 +1,3 @@
 def solution(a):
-    result = list(zip(a[0], a[1]))
-    i = 0
-    for row in result:
-smth
-    return result
-
-
-#Необходимо написать функцию, которая транспонирует матрицу встроенными средствами питона.
-#Матрица имеет вид вложенных списков. Постарайтесь написать однострочник с помощью Zip.
+    transpose = [list(i) for i in zip(*a)]
+    return transpose
