@@ -1,3 +1,2 @@
-def solution(n, k):
-    ### YOUR CODE HERE ###
-    return
+def solution(students, apples):
+    return divmod(apples, students)
