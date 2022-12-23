@@ -16,3 +16,4 @@ def solution(a, b):
     elif j < len(b):
         result += b[j:]
     return result
+
